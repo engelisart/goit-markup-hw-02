@@ -100,7 +100,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.03em;
   color: var(--WHITE);
-  border-radius: 4px;
   background-color: var(--IRIS);
   cursor: pointer;
 }
@@ -204,8 +203,6 @@ a {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.64px;
   color: var(--IRIS);
-  border-radius: 4px;
-  border: 1px solid var(--CORNFLOWER);
   background: var(--CLOUD);
   cursor: pointer;
 }
