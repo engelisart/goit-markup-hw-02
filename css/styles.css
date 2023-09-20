@@ -244,7 +244,7 @@ a {
 .footer {
   background: var(--NAVY-BLUE);
 }
-.footer-logo-web {
+.link {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
