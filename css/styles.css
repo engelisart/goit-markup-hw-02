@@ -3,8 +3,10 @@
   --WHITE: #fff;
   --IRIS: #4d5ae5;
   --NAVY-BLUE: #2e2f42;
+  --OCEAN: #404bbf;
   --SLATE: #434455;
   --CLOUD: #f4f4fd;
+  --CORNFLOWER: #e7e9fc;
 }
 /**
   |============================
@@ -100,12 +102,12 @@ a {
   letter-spacing: 0.03em;
   color: var(--WHITE);
   border-radius: 4px;
-  background-color: var(--IRIS, #4d5ae5);
+  background-color: var(--IRIS);
   cursor: pointer;
 }
 .her-button:hover,
 .her-button:focus {
-  background: var(--OCEAN, #404bbf);
+  background: var(--OCEAN);
 }
 /**
   |============================
@@ -195,11 +197,47 @@ a {
   | Filters
   |============================
 */
+.filters-item-button {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+  color: var(--IRIS);
+  border-radius: 4px;
+  border: 1px solid var(--CORNFLOWER);
+  background: var(--CLOUD);
+  cursor: pointer;
+}
+.filters-item-button:hover,
+.filters-item-button:focus {
+  background: var(--OCEAN);
+  color: var(--WHITE);
+}
 /**
   |============================
-  | Row 1
+  | Row
   |============================
 */
+.row-item-titel {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+  color: var(--NAVY-BLUE);
+}
+.row-item-paragraph {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+  color: var(--SLATE);
+}
 /**
   |============================
   | Footer
