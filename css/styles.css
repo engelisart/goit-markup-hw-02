@@ -38,7 +38,7 @@ a {
   background: var(--WHITE);
 }
 .header-nav-logo-wed {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -48,7 +48,7 @@ a {
   text-transform: uppercase;
 }
 .header-nav-logo-studio {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -58,7 +58,7 @@ a {
   text-transform: uppercase;
 }
 .header-nav-link {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -67,7 +67,7 @@ a {
   color: var(--NAVY-BLUE);
 }
 .header-address-link {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -85,7 +85,7 @@ a {
   background: var(--NAVY-BLUE);
 }
 .her-title {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -95,12 +95,12 @@ a {
   text-align: center;
 }
 .her-button {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.04em;
   color: var(--WHITE);
   background-color: var(--IRIS);
   cursor: pointer;
@@ -115,7 +115,7 @@ a {
   |============================
 */
 .section1-item-titel {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -124,7 +124,7 @@ a {
   color: var(--NAVY-BLUE);
 }
 .section1-item-paragraph {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -138,7 +138,7 @@ a {
   |============================
 */
 .section2-title {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -158,7 +158,7 @@ a {
 }
 .section3-title {
   /* Header 2 */
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -172,7 +172,7 @@ a {
   background: var(--WHITE);
 }
 .section3-item-title {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -182,7 +182,7 @@ a {
   text-align: center;
 }
 .section3-item-paragraph {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -198,7 +198,7 @@ a {
   |============================
 */
 .filters-item-button {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -219,7 +219,7 @@ a {
   |============================
 */
 .row-item-titel {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -228,7 +228,7 @@ a {
   color: var(--NAVY-BLUE);
 }
 .row-item-paragraph {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -245,17 +245,17 @@ a {
   background: var(--NAVY-BLUE);
 }
 .footer-logo-web {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   color: var(--IRIS);
   text-transform: uppercase;
 }
 .footer-logo-studio {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -265,7 +265,7 @@ a {
   text-transform: uppercase;
 }
 .footer-paragraph {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
