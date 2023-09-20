@@ -14,7 +14,6 @@
   |============================
 */
 body {
-  font-family: Roboto;
   color: #2e2f42;
 }
 /*reset start*/
@@ -56,7 +55,7 @@ a {
   color: var(--NAVY-BLUE);
   text-transform: uppercase;
 }
-.header-nav-links {
+.header-nav-link {
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -65,7 +64,7 @@ a {
   letter-spacing: 0.32px;
   color: var(--NAVY-BLUE);
 }
-.header-address-links {
+.header-address-link {
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
