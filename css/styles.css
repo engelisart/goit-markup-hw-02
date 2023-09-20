@@ -14,8 +14,10 @@
   |============================
 */
 body {
-  color: #2e2f42;
-}
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #fff;
+  }
 /*reset start*/
 ul,
 ol {
@@ -40,7 +42,7 @@ a {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   color: var(--IRIS);
   text-transform: uppercase;
@@ -50,7 +52,7 @@ a {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   color: var(--NAVY-BLUE);
   text-transform: uppercase;
