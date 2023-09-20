@@ -1,5 +1,10 @@
-/*vi*/
+/*Varibles*/
 :root {
+  --WHITE: #fff;
+  --IRIS: #4d5ae5;
+  --NAVY-BLUE: #2e2f42;
+  --SLATE: #434455;
+  --CLOUD: #f4f4fd;
 }
 /**
   |============================
@@ -7,6 +12,7 @@
   |============================
 */
 body {
+  font-family: Roboto;
   color: #2e2f42;
 }
 /*reset start*/
@@ -15,40 +21,174 @@ ol {
   list-style-type: none;
 }
 a {
-   text-decoration: none; 
-   color: currentColor;
+  text-decoration: none;
+  color: currentColor;
 }
 /*reset end*/
-.
+
 /**
   |============================
   | Header styles
   |============================
 */
 .header {
-    background: var(--WHITE, #FFF);
+  background: var(--WHITE);
+}
+.header-nav-logo-wed {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.54px;
+  color: var(--IRIS);
+  text-transform: uppercase;
+}
+.header-nav-logo-studio {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.54px;
+  color: var(--NAVY-BLUE);
+  text-transform: uppercase;
+}
+.header-nav-links {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--NAVY-BLUE);
+}
+.header-address-links {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--SLATE);
 }
 /**index.html**/
 /**
   |============================
-  | Her
+  | Her image
   |============================
 */
+.her {
+  background: var(--NAVY-BLUE);
+}
+.her-title {
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  color: var(--WHITE);
+  text-align: center;
+}
+.her-button {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: var(--WHITE);
+  border-radius: 4px;
+  background-color: var(--IRIS, #4d5ae5);
+  cursor: pointer;
+}
+.her-button:hover,
+.her-button:focus {
+  background: var(--OCEAN, #404bbf);
+}
 /**
   |============================
   | Section 1
   |============================
 */
+.section1-item-titel {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--NAVY-BLUE);
+}
+.section1-item-paragraph {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--SLATE);
+}
 /**
   |============================
   | Section 2
   |============================
 */
+.section2-title {
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  color: var(--NAVY-BLUE);
+  text-align: center;
+  text-transform: capitalize;
+}
 /**
   |============================
   | Section 3
   |============================
 */
+.section3 {
+  background: var(--CLOUD);
+}
+.section3-title {
+  /* Header 2 */
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  color: var(--NAVY-BLUE);
+  text-align: center;
+  text-transform: capitalize;
+}
+.section3-item {
+  background: var(--WHITE);
+}
+.section3-item-title {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--NAVY-BLUE);
+  text-align: center;
+}
+.section3-item-paragraph {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--SLATE);
+  text-align: center;
+}
 /**Portfolio.html**/
 /**
   |============================
@@ -62,16 +202,38 @@ a {
 */
 /**
   |============================
-  | Row 2
-  |============================
-*/
-/**
-  |============================
-  | Row 3
-  |============================
-*/
-/**
-  |============================
   | Footer
   |============================
 */
+.footer {
+  background: var(--NAVY-BLUE);
+}
+.footer-logo-web {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.54px;
+  color: var(--IRIS);
+  text-transform: uppercase;
+}
+.footer-logo-studio {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.16; /* 116.667% */
+  letter-spacing: 0.54px;
+  color: var(--CLOUD);
+  text-transform: uppercase;
+}
+.footer-paragraph {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+  color: var(--CLOUD);
+}
