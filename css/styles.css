@@ -66,6 +66,13 @@ a {
   letter-spacing: 0.32px;
   color: var(--NAVY-BLUE);
 }
+.header-address {
+    font-size: normal;
+}
+.list {
+    list-style: none;
+}
+
 .header-address-link {
   font-family: Roboto, sans-serif;
   font-size: 16px;
