@@ -14,10 +14,10 @@
   |============================
 */
 body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #fff;
-  }
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
 /*reset start*/
 ul,
 ol {
@@ -67,10 +67,10 @@ a {
   color: var(--NAVY-BLUE);
 }
 .header-address {
-    font-size: normal;
+  font-style: normal;
 }
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .header-address-link {
@@ -260,7 +260,15 @@ a {
   letter-spacing: 0.54px;
   color: var(--IRIS);
   text-transform: uppercase;
+  text-decoration: none;
 }
+
+.link:hover,.link:focus{
+    color: #404bbf;
+}
+
+
+
 
 .footer-logo-studio {
   font-family: Raleway, sans-serif;
