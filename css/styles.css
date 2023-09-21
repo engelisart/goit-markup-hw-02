@@ -106,7 +106,7 @@ ol {
 /**index.html**/
 /**
   |============================
-  | Her image
+  | Her image Section 1
   |============================
 */
 .her {
@@ -139,10 +139,10 @@ ol {
 }
 /**
   |============================
-  | Section 1
+  | Section 2
   |============================
 */
-.section1-item-titel {
+.feature-item-titel {
   font-family: Roboto, sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -151,7 +151,7 @@ ol {
   letter-spacing: 0.4px;
   color: var(--NAVY-BLUE);
 }
-.section1-item-paragraph {
+.feature-item-paragraph {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -162,7 +162,7 @@ ol {
 }
 /**
   |============================
-  | Section 2
+  | Section 3
   |============================
 */
 .section2-title {
@@ -178,7 +178,7 @@ ol {
 }
 /**
   |============================
-  | Section 3
+  | Section 4
   |============================
 */
 .section3 {
