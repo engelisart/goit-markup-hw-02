@@ -47,6 +47,17 @@ a {
   color: var(--IRIS);
   text-transform: uppercase;
 }
+
+.header-nav-logo-studio {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  color: var(--NAVY-BLUE);
+  text-transform: uppercase;
+}
 .header-nav > .link {
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -57,16 +68,6 @@ a {
   color: var(--IRIS);
   text-transform: uppercase;
   text-decoration: none;
-}
-.header-nav-logo-studio {
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-  color: var(--NAVY-BLUE);
-  text-transform: uppercase;
 }
 .header-nav-item > .link {
   font-family: Roboto, sans-serif;
@@ -79,10 +80,8 @@ a {
 }
 .header-nav-item:hover,
 .header-nav-item:focus {
-  color: var(--OCEAN)
-
+  color: var(--OCEAN);
 }
-
 
 .header-address {
   font-style: normal;
@@ -102,8 +101,7 @@ a {
 }
 .header-address-item:hover,
 .header-address-item:focus {
-  color: var(--OCEAN)
-
+  color: var(--OCEAN);
 }
 /**index.html**/
 /**
@@ -277,13 +275,22 @@ a {
 .footer {
   background: var(--NAVY-BLUE);
 }
-
+.footer > .link {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.54px;
+  color: var(--IRIS);
+  text-transform: uppercase;
+}
 .footer-logo-studio {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   color: var(--CLOUD);
   text-transform: uppercase;
