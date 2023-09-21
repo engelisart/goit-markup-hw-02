@@ -57,7 +57,7 @@ a {
   color: var(--NAVY-BLUE);
   text-transform: uppercase;
 }
-.header-nav-link {
+.header-nav-item > .link {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -67,17 +67,18 @@ a {
   color: var(--NAVY-BLUE);
 }
 
-.link {
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.54px;
-    color: var(--IRIS);
-    text-transform: uppercase;
-    text-decoration: none;
-  }
+.header-nav > .link {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  color: var(--IRIS);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 
 .header-address {
   font-style: normal;
