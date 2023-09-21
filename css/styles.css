@@ -165,7 +165,7 @@ ol {
   | Section 3
   |============================
 */
-.section2-title {
+.work-title {
   font-family: Roboto, sans-serif;
   font-size: 36px;
   font-style: normal;
@@ -181,10 +181,10 @@ ol {
   | Section 4
   |============================
 */
-.section3 {
+.team {
   background: var(--CLOUD);
 }
-.section3-title {
+.team-title {
   /* Header 2 */
   font-family: Roboto, sans-serif;
   font-size: 36px;
@@ -196,10 +196,10 @@ ol {
   text-align: center;
   text-transform: capitalize;
 }
-.section3-item {
+.team-item {
   background: var(--WHITE);
 }
-.section3-item-title {
+.team-item-title {
   font-family: Roboto, sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -209,7 +209,7 @@ ol {
   color: var(--NAVY-BLUE);
   text-align: center;
 }
-.section3-item-paragraph {
+.team-item-paragraph {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
