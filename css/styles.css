@@ -66,6 +66,19 @@ a {
   letter-spacing: 0.32px;
   color: var(--NAVY-BLUE);
 }
+
+.link {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    color: var(--IRIS);
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
 .header-address {
   font-style: normal;
 }
@@ -225,6 +238,9 @@ a {
   | Row
   |============================
 */
+.row-link {
+  text-decoration: none;
+}
 .row-item-titel {
   font-family: Roboto, sans-serif;
   font-size: 20px;
@@ -251,21 +267,9 @@ a {
 .footer {
   background: var(--NAVY-BLUE);
 }
-.link {
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-  color: var(--IRIS);
-  text-transform: uppercase;
-  text-decoration: none;
-}
 
-.link:hover,.link:focus{
-    color: #404bbf;
-}
+
+
 
 
 
