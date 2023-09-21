@@ -77,8 +77,8 @@ a {
   letter-spacing: 0.32px;
   color: var(--NAVY-BLUE);
 }
-.list:hover,
-.list:focus {
+.header-nav-item:hover,
+.header-nav-item:focus {
   color: var(--OCEAN)
 
 }
@@ -99,6 +99,11 @@ a {
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--SLATE);
+}
+.header-address-item:hover,
+.header-address-item:focus {
+  color: var(--OCEAN)
+
 }
 /**index.html**/
 /**
