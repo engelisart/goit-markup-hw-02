@@ -47,6 +47,17 @@ a {
   color: var(--IRIS);
   text-transform: uppercase;
 }
+.header-nav > .link {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  color: var(--IRIS);
+  text-transform: uppercase;
+  text-decoration: none;
+}
 .header-nav-logo-studio {
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -66,17 +77,10 @@ a {
   letter-spacing: 0.32px;
   color: var(--NAVY-BLUE);
 }
+.list:hover,
+.list:focus {
+  color: var(--OCEAN)
 
-.header-nav > .link {
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-  color: var(--IRIS);
-  text-transform: uppercase;
-  text-decoration: none;
 }
 
 
@@ -87,7 +91,7 @@ a {
   list-style: none;
 }
 
-.header-address-link {
+.header-address-item > .link {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -268,12 +272,6 @@ a {
 .footer {
   background: var(--NAVY-BLUE);
 }
-
-
-
-
-
-
 
 .footer-logo-studio {
   font-family: Raleway, sans-serif;
